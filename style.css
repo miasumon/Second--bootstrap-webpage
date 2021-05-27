@@ -1,0 +1,199 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+/*
+font-family: 'Handlee', cursive;
+
+font-family: 'Roboto', sans-serif
+  */
+  
+}
+.section-title h2{
+  font-size: 2.2rem;
+  
+}
+.hr-style{
+  border: 5px dotted white;
+  border-bottom: none;
+  width: 80px;
+  margin: auto;
+}
+.icon-style{
+  background: cadetblue;
+  color: white;
+  padding: 10px;
+}
+
+/*Header Starts*/
+nav{
+  background: rgba(0,0,0,0.3);
+}
+.bar{
+  color: white;
+}
+/*
+.navbar-brand img{
+  width: 50px;
+}
+*/
+.nav-link{
+  color: white;
+  text-align: center;
+  transition: .4s;
+  margin: 10px 20px ;
+  padding: 10px 0;
+  
+}
+.nav-link:hover{
+  background:rgba(0,0,0,0.5);
+  transform: scale(1.05);
+  border-radius: 10px;
+  color: white;
+}
+
+header{
+  background-image: url('book.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+/*Banner starts*/
+#banner{
+  height: 70vh;
+  text-align: center;
+}
+.banner-contents h1{
+  font-size: 3.5rem;
+  color:yellow;
+  background: rgba(0,0,0,0.3);
+  font-family: 'Handlee', cursive;
+}
+
+/*Banner Ends*/
+/*Feature Starts*/
+#feature{
+  background: #e8ded2;
+  padding: 5% 10%;
+}
+.feature-col{
+  border: 1px solid #ff02c0;
+  padding: 7px 10px;
+  transition: .4s;
+  
+}
+.feature-col:hover{
+  box-shadow: 2px 6px 5px black;
+  transform: scale(1.04);
+}
+
+/*Feature Ends*/
+/*About me Starts*/
+#about-me{
+  background: #e8ded2;
+  padding: 5% 10%;
+}
+.star{
+  color: green;
+}
+.education p{
+  font-size: 0.9rem;
+}
+.education a{
+  color: black;
+}
+
+
+
+/*About me Ends*/
+/*Tutorial Starts*/
+#tutorial{
+  background: #a3d2ca;
+  padding: 5% 10%;
+}
+.card{
+  transition: .4s;
+}
+.card:hover{
+  box-shadow: 2px 6px 5px black;
+  transform: scale(1.03);
+}
+
+.card-body{
+  background: gray;
+  color: white;
+}
+
+/*Tutorial Ends*/
+/*Feedback Startss*/
+#feedback{
+  background: #5eaaa8;
+  padding: 5%;
+  
+}
+.feedback-img{
+  width: 100px;
+  height: auto;
+}
+.carousel-item{
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: italic;
+  padding: 3% 15%;
+  
+}
+
+
+
+/*Feedback Ends*/
+/*Contact Starts*/
+#contact{
+  background: #5eaaa8;
+  padding: 5% 10%;
+  
+  
+}
+
+
+
+
+/*Contact Ends*/
+/*Footer Starts*/
+footer{
+  background: #056676;
+  padding: 3% 10%;
+  
+}
+footer a{
+  margin: 5px 10px;
+}
+footer a:hover{
+  background:gray;
+}
+
+
+/*Footer Ends*/
+
+@media (min-width:768px){
+  .banner-contents h1{
+    font-size: 5rem;
+    color: black;
+    padding: 50px;
+  }
+  
+  .nav-link:hover{
+  background:none;
+  transform: scale(1.1);
+  border-radius: 0;
+  color: white;
+}
+
+    
+    
+    
+}
+
